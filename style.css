@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: url("./header.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  color:  white;
+  text-align: center;
+user-select: none;
+}
+
+hr{
+  color:  red;
+  width: 50px;
+  border-bottom: 5px solid red;
+}
+
+button {
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  background: orange;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover {
+  background:  red;
+}
